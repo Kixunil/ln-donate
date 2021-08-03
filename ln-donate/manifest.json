@@ -1,0 +1,13 @@
+{
+    "name": "LN donate",
+    "manifest_version": 2,
+    "version": "0.1",
+    "description": "Donate satoshis to GitHub-hosted projects using Lightning Network",
+    "content_scripts": [{
+        "matches": ["https://github.com/*", "https://www.github.com/*"],
+        "js": ["content.js"]
+    }],
+    "permissions": [
+	    "https://raw.githubusercontent.com/*"
+    ]
+}
