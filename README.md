@@ -8,6 +8,10 @@ This is a browser extension that uses PoC idea of having `.lndonate` file in pro
 It can be considered a libre alternative to GitHub native government shitcoin donation button.
 The button shows up near other buttons - where government shitcoin donate button would appear.
 
+### Screenshot
+
+![Screenshot of ln-donate button](ln-donate-screenshot.png)
+
 ## Usage - donor
 
 The extension is currently unreleased - you need to load it in debug mode (`about:debugging` in FF).
