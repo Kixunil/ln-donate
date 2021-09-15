@@ -12,6 +12,20 @@ The button shows up near other buttons - where government shitcoin donate button
 
 ![Screenshot of ln-donate button](ln-donate-screenshot.png)
 
+### lndonate vs custom GitHub sponsor link
+
+GitHub actually allows you to specify a custom link to your donation site.
+It has advantages and disadvantages.
+
+* `.lndonate` is intentionally not in `.github` subdirectory - it's intended to be independent.
+   Anyone wishing to develop support for GitLab or other web VCS frontends is more than welcome to do so.
+* Sponsor button requires a few more clicks: first click the button, then go to other site, specify amount, pay.
+  This extension makes it simpler: just click the button and follow what wallet says (usually pick amount and confirm)
+* Sponsor button doesn't require a special extension
+
+If you're a developer I suggest you use both.
+It's minimal effort if you already have LNURL server, so why not?
+
 ## Usage - donor
 
 The extension is currently unreleased - you need to load it in debug mode (`about:debugging` in FF).
